@@ -19,8 +19,8 @@ const App = () => {
       <button onClick={() => fetchExcuse("children")}>Children</button>
       <button onClick={() => fetchExcuse("party")}>Party</button>
       <button onClick={() => fetchExcuse("funny")}>Funny</button>
-      <button onClick={() => fetchExcuse("gaming")}>Gaming</button>
-      <button onClick={() => fetchExcuse("gaming")}>Gaming</button>
+      <button onClick={() => fetchExcuse("unbelievable")}>Gaming</button>
+      <button onClick={() => fetchExcuse("developer")}>Developer</button>
       <h1>{excuse}</h1>
     </div>
   );
